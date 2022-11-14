@@ -6,19 +6,6 @@ import TeamList from "./TeamListComponent";
 import "./TeamComponent.css";
 import { IData } from "../../types";
 
-// interface IFormatDate {
-//   weekday: string,
-//   year:string,
-//   month: string,
-//   day: string,
-//   timeStyle: string,
-//   timeZone: string,
-// }
-
-// interface IFromatTime {
-//   timeStyle: string,
-//   timeZone: string,
-// }
 export const TeamComponent = () => {
   const [teamData, setTeamData] = useState<{ name: string; craft: string }[]>(
     []
